@@ -1,0 +1,26 @@
+{
+  "name": "candy-spiral",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Candy Spiral — 3D idle arcade prototype: peel a giant spinning candy roll, haul the curls with the Candy Cart, and run a tiny lollipop workshop.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "deploy": "bash scripts/deploy-pages.sh"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "^5.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^4.1.11"
+  }
+}

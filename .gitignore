@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+*.log
+
+# Local working brief, not published
+Claude_Code_Prompt_Candy_Spiral_Web_Prototype.md
